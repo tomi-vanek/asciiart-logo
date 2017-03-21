@@ -3,8 +3,8 @@
 const figlet = require('figlet');
 
 module.exports = options => {
-  const {title, font, padding, margin} = options;
-  const logoLines = figlet.textSync(title, {horizontalLayout: 'full', font: font}).split('\n');
+  const {name, font, padding, margin} = options;
+  const logoLines = figlet.textSync(name, {horizontalLayout: 'full', font: font}).split('\n');
   const width = logoLines.reduce((len, line) => line.length > len ? line.length : len, 0);
 
   const horizMargin = margin || 0;
@@ -12,13 +12,13 @@ module.exports = options => {
   const horizSpace = padding || 2;
   const vertSpace = horizSpace / 2 | 0;
 
-  const frameTop = `${' '.repeat(horizMargin)},${'-'.repeat(width + 2 * horizSpace)}.`;
-  const frameBottom = `${' '.repeat(horizMargin)}\`${'-'.repeat(width + 2 * horizSpace)}'`;
+  const frameTop = `${' '.repeat(horizMargin)},${'-'.repeat(width + 2 * horizSpace)}.${' '.repeat(horizMargin)}`;
+  const frameBottom = `${' '.repeat(horizMargin)}\`${'-'.repeat(width + 2 * horizSpace)}'${' '.repeat(horizMargin)}`;
   const _render = (line, leftSpaces, rightSpaces) =>
-    `${' '.repeat(horizMargin)}|${' '.repeat(leftSpaces)}${line}${' '.repeat(rightSpaces)}|`;
+    `${' '.repeat(horizMargin)}|${' '.repeat(leftSpaces)}${line}${' '.repeat(rightSpaces)}|${' '.repeat(horizMargin)}`;
   const emptyLine = _render(' '.repeat(width), horizSpace, horizSpace);
   const spaceLines = vertSpace ? Array(vertSpace).fill(emptyLine) : [];
-  const marginLines = vertMargin ? Array(vertMargin).fill('') : [];
+  const marginLines = vertMargin ? Array(vertMargin).fill(' '.repeat(width + 2 * (horizMargin + horizSpace + 1))) : [];
 
   const lineLeft = line => _render(line, horizSpace, width - line.length + horizSpace)
   const lineRight = line => _render(line, width - line.length + horizSpace, horizSpace);

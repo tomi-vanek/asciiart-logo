@@ -9,7 +9,7 @@ const logo = require('./logo');
     // .wordwrap(config.description);
 console.log(
   logo({
-      title: config.name,
+      name: config.name,
       font: 'stop',
       padding: 3,
       margin: 4
@@ -24,3 +24,18 @@ Integer euismod lacus ut placerat tincidunt. Donec dictum aliquam est, sed moles
 Vestibulum vitae ligula non purus consectetur pellentesque.`)
     .render()
   );
+console.log('-'.repeat(40));
+
+console.log(
+  logo({
+    name: 'Foo Bar',
+    font: 'speed',
+    padding: 5,
+    margin: 2
+  })
+  .emptyLine()
+  .right('version 3.7.123')
+  .emptyLine()
+  .wrap('This is a longer text that describes the values of the component for command line applications.')
+  .render()
+);

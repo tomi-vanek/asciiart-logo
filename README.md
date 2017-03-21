@@ -18,7 +18,7 @@ Usage in source code
 const logo = require('asciiart-logo');
 console.log(
   logo({
-    title: 'Foo Bar',
+    name: 'Foo Bar',
     font: 'speed',
     padding: 5,
     margin: 2
@@ -34,28 +34,29 @@ console.log(
 ... and the output on the console:
 
 ``` console
-
-  ,------------------------------------------------------------------.
-  |                                                                  |
-  |                                                                  |
-  |     __________                     ________                      |
-  |     ___  ____/______ ______        ___  __ )______ _________     |
-  |     __  /_    _  __ \_  __ \       __  __  |_  __ `/__  ___/     |
-  |     _  __/    / /_/ // /_/ /       _  /_/ / / /_/ / _  /         |
-  |     /_/       \____/ \____/        /_____/  \__,_/  /_/          |
-  |                                                                  |
-  |                                                                  |
-  |                                              version 3.7.123     |
-  |                                                                  |
-  |     This is a longer text that describes the values of the       |
-  |     component for command line applications.                     |
-  |                                                                  |
-  |                                                                  |
-  `------------------------------------------------------------------'
-
+                                                                        
+  ,------------------------------------------------------------------.  
+  |                                                                  |  
+  |                                                                  |  
+  |     __________                     ________                      |  
+  |     ___  ____/______ ______        ___  __ )______ _________     |  
+  |     __  /_    _  __ \_  __ \       __  __  |_  __ `/__  ___/     |  
+  |     _  __/    / /_/ // /_/ /       _  /_/ / / /_/ / _  /         |  
+  |     /_/       \____/ \____/        /_____/  \__,_/  /_/          |  
+  |                                                                  |  
+  |                                                                  |  
+  |                                              version 3.7.123     |  
+  |                                                                  |  
+  |     This is a longer text that describes the values of the       |  
+  |     component for command line applications.                     |  
+  |                                                                  |  
+  |                                                                  |  
+  `------------------------------------------------------------------'  
+                                                                        
 ```
 
 You may be interested also in complete [example code](./example.js) that shows typical usage of the asciiart-logo library.
+The example code may be tested with command `node ./example.js` in the root folder of the project.
 
 ## Dependency
 
