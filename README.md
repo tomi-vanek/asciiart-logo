@@ -6,7 +6,7 @@ _asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASC
 
 ## Quick Start
 
-Download and install the library
+Download and installation of the library
 
 ``` Bash
 npm install --save asciiart-logo
@@ -15,15 +15,22 @@ npm install --save asciiart-logo
 Usage in source code
 
 ``` JavaScript
-const config = require('./package.json');
-const logo = require('asciiart-logo')
-    .art(config.name)
-    .right(config.version)
-    .wrap(config.description);
-console.log(logo.render());
+const logo = require('asciiart-logo');
+console.log(
+  logo({
+    title: 'Foo Bar',
+    font: 'speed',
+    padding: 5,
+    margin: 2
+  })
+  .emptyLine()
+  .right('version 3.7.123')
+  .emptyLine()
+  .wrap('This is a longer text that describes the values of the component for command line applications.')
+  .render()
+);
 ```
 
-## Dependency
+## Dependency
 
-[figlet](https://www.npmjs.com/package/figlet) library.
-
+Component uses the library [figlet](https://www.npmjs.com/package/figlet) for ASCII art text rendering.

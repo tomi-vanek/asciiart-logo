@@ -2,7 +2,7 @@
 
 const figlet = require('figlet');
 
-module.exports = (options) => {
+module.exports = options => {
   const {title, font, padding, margin} = options;
   const logoLines = figlet.textSync(title, {horizontalLayout: 'full', font: font}).split('\n');
   const width = logoLines.reduce((len, line) => line.length > len ? line.length : len, 0);
@@ -14,7 +14,8 @@ module.exports = (options) => {
 
   const frameTop = `${' '.repeat(horizMargin)},${'-'.repeat(width + 2 * horizSpace)}.`;
   const frameBottom = `${' '.repeat(horizMargin)}\`${'-'.repeat(width + 2 * horizSpace)}'`;
-  const _render = (line, leftSpaces, rightSpaces) => `${' '.repeat(horizMargin)}|${' '.repeat(leftSpaces)}${line}${' '.repeat(rightSpaces)}|`
+  const _render = (line, leftSpaces, rightSpaces) =>
+    `${' '.repeat(horizMargin)}|${' '.repeat(leftSpaces)}${line}${' '.repeat(rightSpaces)}|`;
   const emptyLine = _render(' '.repeat(width), horizSpace, horizSpace);
   const spaceLines = vertSpace ? Array(vertSpace).fill(emptyLine) : [];
   const marginLines = vertMargin ? Array(vertMargin).fill('') : [];
@@ -39,27 +40,18 @@ module.exports = (options) => {
 
   let content = [].concat(logoLines.map(line => lineLeft(line)));
 
+  const _addLines = (lines, context) => {
+    content = [].concat(content, lines);
+    return context;
+  }
+
   const engine = {
-    left: text => {
-      content.push(lineLeft(text));
-      return engine;
-    },
-    right: text => {
-      content.push(lineRight(text));
-      return engine;
-    },
-    center: text => {
-      content.push(lineCenter(text));
-      return engine;
-    },
-    wrap: text => {
-      content = [].concat(content, wordWrap(text));
-      return engine;
-    },
-    emptyLine: () => {
-      content.push(emptyLine);
-      return engine;
-    },
+    left: text => _addLines(text.length < width ? [lineLeft(text)] : wordWrap(text), engine),
+    right: text => _addLines(text.length < width ? [lineRight(text)] : wordWrap(text), engine),
+    center: text => _addLines(text.length < width ? [lineCenter(text)] : wordWrap(text), engine),
+    wrap: text => _addLines(wordWrap(text), engine),
+    emptyLine: () => _addLines([emptyLine], engine),
+    emptyLines: count => _addLines(Array(count || 1).fill(emptyLine), engine),
     render: () => [].concat(marginLines, frameTop, spaceLines, content, spaceLines, frameBottom, marginLines).join('\n')
   };
 

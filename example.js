@@ -16,6 +16,7 @@ console.log(
     })
     .left(config.name)
     .right(`version ${config.version}`)
+    .emptyLines(2)
     .wrap(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet consequat ipsum vestibulum eleifend.
 Curabitur convallis odio a tellus rhoncus egestas. Nam lorem lectus, elementum vitae efficitur tincidunt,
 accumsan sed tortor. Quisque tempor molestie nunc, ut tempor orci placerat scelerisque.
