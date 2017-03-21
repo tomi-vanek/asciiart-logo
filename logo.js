@@ -3,11 +3,11 @@
 const figlet = require('figlet');
 
 module.exports = options => {
-  const {name, font, padding, margin} = options;
+  const {name, version, description, font, padding, margin} = options;
   const logoLines = figlet.textSync(name, {horizontalLayout: 'full', font: font}).split('\n');
   const width = logoLines.reduce((len, line) => line.length > len ? line.length : len, 0);
 
-  const horizMargin = margin || 0;
+  const horizMargin = margin || 2;
   const vertMargin = horizMargin / 2 | 0;
   const horizSpace = padding || 2;
   const vertSpace = horizSpace / 2 | 0;
@@ -43,6 +43,13 @@ module.exports = options => {
   const _addLines = (lines, context) => {
     content = [].concat(content, lines);
     return context;
+  }
+
+  if (version) {
+    _addLines(lineRight(`version ${version}`));
+  }
+  if (description) {
+    _addLines(wordWrap(description));
   }
 
   const engine = {
