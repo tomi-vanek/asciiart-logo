@@ -1,0 +1,29 @@
+{
+  "name": "asciiart-logo",
+  "version": "0.1.0",
+  "description": "Logo with ASCII-art text",
+  "main": "./logo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomi-vanek/asciiart-logo.git"
+  },
+  "keywords": [
+    "ascii-art",
+    "figlet",
+    "logo",
+    "cli",
+    "node"
+  ],
+  "author": "tomi vanek",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/tomi-vanek/asciiart-logo/issues"
+  },
+  "homepage": "https://github.com/tomi-vanek/asciiart-logo#readme",
+  "dependencies": {
+    "figlet": "^1.2.0"
+  }
+}
