@@ -19,7 +19,7 @@ const logo = require('asciiart-logo');
 console.log(
   logo({
     name: 'Foo Bar',
-    font: 'speed',
+    font: 'Speed',
     padding: 5,
     margin: 2
   })

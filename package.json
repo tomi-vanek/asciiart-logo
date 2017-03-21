@@ -1,6 +1,6 @@
 {
   "name": "asciiart-logo",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Logo with ASCII-art text",
   "main": "./logo.js",
   "scripts": {
