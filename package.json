@@ -1,6 +1,6 @@
 {
   "name": "asciiart-logo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Logo with ASCII-art text",
   "main": "./logo.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/tomi-vanek/asciiart-logo#readme",
   "dependencies": {
-    "figlet": "^1.2.0"
+    "figlet": "^1.2.0",
+    "to-case": "^2.0.0"
   }
 }

@@ -4,5 +4,5 @@
 const logo = require('./logo');
 
 let config = require('./package.json');
-config.font = 'Colossal'
+config.font = 'Colossal';
 console.log(logo(config).render());
