@@ -20,6 +20,7 @@ console.log(
   logo({
     name: 'Foo Bar',
     font: 'Speed',
+    lineChars: 15,
     padding: 5,
     margin: 2
   })
@@ -34,25 +35,25 @@ console.log(
 ... and the output on the console:
 
 ``` console
-                                                                        
-  ,------------------------------------------------------------------.  
-  |                                                                  |  
-  |                                                                  |  
-  |     __________                     ________                      |  
-  |     ___  ____/______ ______        ___  __ )______ _________     |  
-  |     __  /_    _  __ \_  __ \       __  __  |_  __ `/__  ___/     |  
-  |     _  __/    / /_/ // /_/ /       _  /_/ / / /_/ / _  /         |  
-  |     /_/       \____/ \____/        /_____/  \__,_/  /_/          |  
-  |                                                                  |  
-  |                                                                  |  
-  |                                              version 3.7.123     |  
-  |                                                                  |  
-  |     This is a longer text that describes the values of the       |  
-  |     component for command line applications.                     |  
-  |                                                                  |  
-  |                                                                  |  
-  `------------------------------------------------------------------'  
-                                                                        
+                                                                  
+  ,------------------------------------------------------------.  
+  |                                                            |  
+  |                                                            |  
+  |     __________                 ________                    |  
+  |     ___  ____/___________      ___  __ )_____ ________     |  
+  |     __  /_   _  __ \  __ \     __  __  |  __ `/_  ___/     |  
+  |     _  __/   / /_/ / /_/ /     _  /_/ // /_/ /_  /         |  
+  |     /_/      \____/\____/      /_____/ \__,_/ /_/          |  
+  |                                                            |  
+  |                                                            |  
+  |                                        version 3.7.123     |  
+  |                                                            |  
+  |     This is a longer text that describes the values of     |  
+  |     the component for command line applications.           |  
+  |                                                            |  
+  |                                                            |  
+  `------------------------------------------------------------'  
+                                                                  
 ```
 
 You may be interested also in complete [example code](./example.js) that shows typical usage of the asciiart-logo library.

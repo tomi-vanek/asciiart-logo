@@ -4,10 +4,11 @@ const figlet = require('figlet');
 const toTitleCase = require('to-title-case')
 
 module.exports = options => {
-    const { name, version, description, font, padding, margin } = options;
+    const { name, version, description, font, padding, margin, lineChars } = options;
 
     const title = toTitleCase(name);
-    const logo = title.length < 10 ? [].push(title) : title.split(' ');
+    const logoLine = lineChars || 15;
+    const logo = title.length < logoLine ? [title] : title.split(' ');
     const logoLines = logo.reduce((result, line) => {
         return result.concat(figlet.textSync(line, { font: font }).split('\n'));
     }, []);
@@ -54,19 +55,21 @@ module.exports = options => {
     }
 
     if (version) {
-        _addLines(lineRight(`version ${version}`));
+        _addLines([
+            emptyLine, lineRight(`version ${version}`), emptyLine
+        ]);
     }
     if (description) {
         _addLines(wordWrap(description));
     }
 
     const api = {
-        left: text => _addLines(text.length < width ? [lineLeft(text)] : wordWrap(text), engine),
-        right: text => _addLines(text.length < width ? [lineRight(text)] : wordWrap(text), engine),
-        center: text => _addLines(text.length < width ? [lineCenter(text)] : wordWrap(text), engine),
-        wrap: text => _addLines(wordWrap(text), engine),
-        emptyLine: () => _addLines([emptyLine], engine),
-        emptyLines: count => _addLines(Array(count || 1).fill(emptyLine), engine),
+        left: text => _addLines(text.length < width ? [lineLeft(text)] : wordWrap(text), api),
+        right: text => _addLines(text.length < width ? [lineRight(text)] : wordWrap(text), api),
+        center: text => _addLines(text.length < width ? [lineCenter(text)] : wordWrap(text), api),
+        wrap: text => _addLines(wordWrap(text), api),
+        emptyLine: () => _addLines([emptyLine], api),
+        emptyLines: count => _addLines(Array(count || 1).fill(emptyLine), api),
         render: () => [].concat(marginLines, frameTop, spaceLines, content, spaceLines, frameBottom, marginLines).join('\n')
     };
 
