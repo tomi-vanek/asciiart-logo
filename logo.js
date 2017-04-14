@@ -1,12 +1,12 @@
 'use strict';
 
 const figlet = require('figlet');
-const to = require('to-case')
+const toTitleCase = require('to-title-case')
 
 module.exports = options => {
     const { name, version, description, font, padding, margin } = options;
 
-    const title = to.capital(name);
+    const title = toTitleCase(name);
     const logo = title.length < 10 ? [].push(title) : title.split(' ');
     const logoLines = logo.reduce((result, line) => {
         return result.concat(figlet.textSync(line, { font: font }).split('\n'));
@@ -60,7 +60,7 @@ module.exports = options => {
         _addLines(wordWrap(description));
     }
 
-    const engine = {
+    const api = {
         left: text => _addLines(text.length < width ? [lineLeft(text)] : wordWrap(text), engine),
         right: text => _addLines(text.length < width ? [lineRight(text)] : wordWrap(text), engine),
         center: text => _addLines(text.length < width ? [lineCenter(text)] : wordWrap(text), engine),
@@ -70,5 +70,5 @@ module.exports = options => {
         render: () => [].concat(marginLines, frameTop, spaceLines, content, spaceLines, frameBottom, marginLines).join('\n')
     };
 
-    return engine;
+    return api;
 };
