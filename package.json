@@ -1,6 +1,6 @@
 {
     "name": "asciiart-logo",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Logo from ASCII characters in text console.",
     "main": "./logo.js",
     "scripts": {

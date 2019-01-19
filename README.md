@@ -2,17 +2,14 @@
 
 Library _asciiart-logo_ creates a rectangular panel with ASCII-art from application name, and optional additional information (author, application version, etc).
 
-_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](FONTS.md) in the library.
-
 ## Quick Start
 
-Download and installation of the library
+1. Download and installation of the library `npm install asciiart-logo`
+2. Test the output with `node example.js`
 
-``` Bash
-npm install --save asciiart-logo
-```
+## Usage
 
-Usage in source code
+_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](FONTS.md) in the library.
 
 ``` JavaScript
 const logo = require('asciiart-logo');
@@ -57,7 +54,6 @@ console.log(
 ```
 
 You may be interested also in complete [example code](./example.js) that shows typical usage of the asciiart-logo library.
-The example code may be tested with command `node ./example.js` in the root folder of the project.
 
 ## Dependency
 
