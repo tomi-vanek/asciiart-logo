@@ -2,7 +2,7 @@
 
 Library _asciiart-logo_ creates a rectangular panel with ASCII-art from application name, and optional additional information (author, application version, etc).
 
-_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text.
+_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](FONTS.md) in the library.
 
 ## Quick Start
 
@@ -35,7 +35,7 @@ console.log(
 ... and the output on the console:
 
 ``` console
-                                                                  
+
   ,------------------------------------------------------------.  
   |                                                            |  
   |                                                            |  
@@ -53,7 +53,7 @@ console.log(
   |                                                            |  
   |                                                            |  
   `------------------------------------------------------------'  
-                                                                  
+
 ```
 
 You may be interested also in complete [example code](./example.js) that shows typical usage of the asciiart-logo library.
