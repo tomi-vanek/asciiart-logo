@@ -1,6 +1,6 @@
 # Fonts
 
-Available fonts (lower-upper case of the font name must be exact, otherwise the font is not found in the library). Example visualization is in [Font gallery](https://inteist.com/figlet-font-gallery/).
+List of available fonts - font names are case sensitive. Example visualization of the fonts is in [Font gallery](https://inteist.com/figlet-font-gallery/).
 
 * 1Row
 * 3-D
