@@ -2,292 +2,292 @@
 
 List of available fonts - font names are case sensitive. Example visualization of the fonts is in [Font gallery](https://inteist.com/figlet-font-gallery/).
 
-* 1Row
-* 3-D
-* 3D Diagonal
-* 3D-ASCII
-* 3x5
-* 4Max
-* 5 Line Oblique
-* AMC 3 Line
-* AMC 3 Liv1
-* AMC AAA01
-* AMC Neko
-* AMC Razor
-* AMC Razor2
-* AMC Slash
-* AMC Slider
-* AMC Thin
-* AMC Tubes
-* AMC Untitled
-* ANSI Shadow
-* ASCII New Roman
-* Acrobatic
-* Alligator
-* Alligator2
-* Alpha
-* Alphabet
-* Arrows
-* Avatar
-* B1FF
-* B1FF.php
-* Banner
-* Banner3-D
-* Banner3
-* Banner4
-* Barbwire
-* Basic
-* Bear
-* Bell
-* Benjamin
-* Big Chief
-* Big Money-ne
-* Big Money-nw
-* Big Money-se
-* Big Money-sw
-* Big
-* Bigfig
-* Binary
-* Block
-* Blocks
-* Bloody
-* Bolger
-* Braced
-* Bright
-* Broadway KB
-* Broadway
-* Bubble
-* Bulbhead
-* Caligraphy
-* Caligraphy2
-* Calvin S
-* Cards
-* Catwalk
-* Chiseled
-* Chunky
-* Coinstak
-* Cola
-* Colossal
-* Computer
-* Contessa
-* Contrast
-* Cosmike
-* Crawford
-* Crawford2
-* Crazy
-* Cricket
-* Cursive
-* Cyberlarge
-* Cybermedium
-* Cybersmall
-* Cygnet
-* DANC4
-* DOS Rebel
-* DWhistled
-* Dancing Font
-* Decimal
-* Def Leppard
-* Delta Corps Priest 1
-* Diamond
-* Diet Cola
-* Digital
-* Doh
-* Doom
-* Dot Matrix
-* Double Shorts
-* Double
-* Dr Pepper
-* Efti Chess
-* Efti Font
-* Efti Italic
-* Efti Piti
-* Efti Robot
-* Efti Wall
-* Efti Water
-* Electronic
-* Elite
-* Epic
-* Fender
-* Filter
-* Fire Font-k
-* Fire Font-s
-* Flipped
-* Flower Power
-* Four Tops
-* Fraktur
-* Fun Face
-* Fun Faces
-* Fuzzy
-* Georgi16
-* Georgia11
-* Ghost
-* Ghoulish
-* Glenyn
-* Goofy
-* Gothic
-* Graceful
-* Gradient
-* Graffiti
-* Greek
-* Heart Left
-* Heart Right
-* Henry 3D
-* Hex
-* Hieroglyphs
-* Hollywood
-* Horizontal Left
-* Horizontal Right
-* ICL-1900
-* Impossible
-* Invita
-* Isometric1
-* Isometric2
-* Isometric3
-* Isometric4
-* Italic
-* Ivrit
-* JS Block Letters
-* JS Bracket Letters
-* JS Capital Curves
-* JS Cursive
-* JS Stick Letters
-* Jacky
-* Jazmine
-* Jerusalem
-* Katakana
-* Kban
-* Keyboard
-* Knob
-* Konto Slant
-* Konto
-* LCD
-* Larry 3D 2
-* Larry 3D
-* Lean
-* Letters
-* Lil Devil
-* Line Blocks
-* Linux
-* Lockergnome
-* Madrid
-* Marquee
-* Maxfour
-* Merlin1
-* Merlin2
-* Mike
-* Mini
-* Mirror
-* Mnemonic
-* Modular
-* Morse
-* Morse2
-* Moscow
-* Mshebrew210
-* Muzzle
-* NScript
-* NT Greek
-* NV Script
-* Nancyj-Fancy
-* Nancyj-Improved
-* Nancyj-Underlined
-* Nancyj
-* Nipples
-* O8
-* OS2
-* Octal
-* Ogre
-* Old Banner
-* Patorjk's Cheese
-* Patorjk-HeX
-* Pawp
-* Peaks Slant
-* Peaks
-* Pebbles
-* Pepper
-* Poison
-* Puffy
-* Puzzle
-* Pyramid
-* Rammstein
-* Rectangles
-* Red Phoenix
-* Relief
-* Relief2
-* Reverse
-* Roman
-* Rot13
-* Rot13.php
-* Rotated
-* Rounded
-* Rowan Cap
-* Rozzo
-* Runic
-* Runyc
-* S Blood
-* SL Script
-* Santa Clara
-* Script
-* Serifcap
-* Shadow
-* Shimrod
-* Short
-* Slant Relief
-* Slant
-* Slide
-* Small Caps
-* Small Isometric1
-* Small Keyboard
-* Small Poison
-* Small Script
-* Small Shadow
-* Small Slant
-* Small Tengwar
-* Small
-* Soft
-* Speed
-* Spliff
-* Stacey
-* Stampate
-* Stampatello
-* Standard
-* Star Strips
-* Star Wars
-* Stellar
-* Stforek
-* Stick Letters
-* Stop
-* Straight
-* Stronger Than All
-* Sub-Zero
-* Swamp Land
-* Swan
-* Sweet
-* THIS
-* Tanja
-* Tengwar
-* Term
-* Test1
-* The Edge
-* Thick
-* Thin
-* Thorned
-* Three Point
-* Ticks Slant
-* Ticks
-* Tiles
-* Tinker-Toy
-* Tombstone
-* Train
-* Trek
-* Tsalagi
-* Tubular
-* Twisted
-* Two Point
-* USA Flag
-* Univers
-* Varsity
-* Wavy
-* Weird
-* Wet Letter
-* Whimsy
-* Wow
+1. [1Row](https://inteist.com/figlet-font-gallery/#1row.flf)
+1. [3-D](https://inteist.com/figlet-font-gallery/#3-d.flf)
+1. [3D Diagonal](https://inteist.com/figlet-font-gallery/#3D%20Diagonal.flf)
+1. [3D-ASCII](https://inteist.com/figlet-font-gallery/#3D-ASCII.flf)
+1. [3x5](https://inteist.com/figlet-font-gallery/#3x5.flf)
+1. [4Max](https://inteist.com/figlet-font-gallery/#4max.flf)
+1. [5 Line Oblique](https://inteist.com/figlet-font-gallery/#5%20Line%20Oblique.flf)
+1. [AMC 3 Line](https://inteist.com/figlet-font-gallery/#AMC%203%20Line.flf)
+1. [AMC 3 Liv1](https://inteist.com/figlet-font-gallery/#AMC%203%20Liv1.flf)
+1. [AMC AAA01](https://inteist.com/figlet-font-gallery/#AMC%20AAA01.flf)
+1. [AMC Neko](https://inteist.com/figlet-font-gallery/#AMC%20Neko.flf)
+1. [AMC Razor](https://inteist.com/figlet-font-gallery/#AMC%20Razor.flf)
+1. [AMC Razor2](https://inteist.com/figlet-font-gallery/#AMC%20Razor2.flf)
+1. [AMC Slash](https://inteist.com/figlet-font-gallery/#AMC%20Slash.flf)
+1. [AMC Slider](https://inteist.com/figlet-font-gallery/#AMC%20Slider.flf)
+1. [AMC Thin](https://inteist.com/figlet-font-gallery/#AMC%20Thin.flf)
+1. [AMC Tubes](https://inteist.com/figlet-font-gallery/#AMC%20Tubes.flf)
+1. [AMC Untitled](https://inteist.com/figlet-font-gallery/#AMC%20Untitled.flf)
+1. [ANSI Shadow](https://inteist.com/figlet-font-gallery/#ANSI%20Shadow.flf)
+1. [ASCII New Roman](https://inteist.com/figlet-font-gallery/#ASCII%20New%20Roman.flf)
+1. [Acrobatic](https://inteist.com/figlet-font-gallery/#acrobatic.flf)
+1. [Alligator](https://inteist.com/figlet-font-gallery/#alligator.flf)
+1. [Alligator2](https://inteist.com/figlet-font-gallery/#alligator2.flf)
+1. [Alpha](https://inteist.com/figlet-font-gallery/#alpha.flf)
+1. [Alphabet](https://inteist.com/figlet-font-gallery/#alphabet.flf)
+1. [Arrows](https://inteist.com/figlet-font-gallery/#Arrows.flf)
+1. [Avatar](https://inteist.com/figlet-font-gallery/#avatar.flf)
+1. [B1FF](https://inteist.com/figlet-font-gallery/#B1FF.flf)
+1. [B1FF.php](https://inteist.com/figlet-font-gallery/#B1FF.flf)
+1. [Banner](https://inteist.com/figlet-font-gallery/#banner.flf)
+1. [Banner3-D](https://inteist.com/figlet-font-gallery/#banner3-D.flf)
+1. [Banner3](https://inteist.com/figlet-font-gallery/#banner3.flf)
+1. [Banner4](https://inteist.com/figlet-font-gallery/#banner4.flf)
+1. [Barbwire](https://inteist.com/figlet-font-gallery/#barbwire.flf)
+1. [Basic](https://inteist.com/figlet-font-gallery/#basic.flf)
+1. [Bear](https://inteist.com/figlet-font-gallery/#bear.flf)
+1. [Bell](https://inteist.com/figlet-font-gallery/#bell.flf)
+1. [Benjamin](https://inteist.com/figlet-font-gallery/#benjamin.flf)
+1. [Big Chief](https://inteist.com/figlet-font-gallery/#bigchief.flf)
+1. [Big Money-ne](https://inteist.com/figlet-font-gallery/#Big%20Money-ne.flf)
+1. [Big Money-nw](https://inteist.com/figlet-font-gallery/#Big%20Money-nw.flf)
+1. [Big Money-se](https://inteist.com/figlet-font-gallery/#Big%20Money-se.flf)
+1. [Big Money-sw](https://inteist.com/figlet-font-gallery/#Big%20Money-sw.flf)
+1. [Big](https://inteist.com/figlet-font-gallery/#big.flf)
+1. [Bigfig](https://inteist.com/figlet-font-gallery/#bigfig.flf)
+1. [Binary](https://inteist.com/figlet-font-gallery/#binary.flf)
+1. [Block](https://inteist.com/figlet-font-gallery/#block.flf)
+1. [Blocks](https://inteist.com/figlet-font-gallery/#blocks.flf)
+1. [Bloody](https://inteist.com/figlet-font-gallery/#Bloody.flf)
+1. [Bolger](https://inteist.com/figlet-font-gallery/#bolger.flf)
+1. [Braced](https://inteist.com/figlet-font-gallery/#braced.flf)
+1. [Bright](https://inteist.com/figlet-font-gallery/#bright.flf)
+1. [Broadway KB](https://inteist.com/figlet-font-gallery/#broadway_kb.flf)
+1. [Broadway](https://inteist.com/figlet-font-gallery/#broadway.flf)
+1. [Bubble](https://inteist.com/figlet-font-gallery/#bubble.flf)
+1. [Bulbhead](https://inteist.com/figlet-font-gallery/#bulbhead.flf)
+1. [Caligraphy](https://inteist.com/figlet-font-gallery/#caligraphy.flf)
+1. [Caligraphy2](https://inteist.com/figlet-font-gallery/#caligraphy2.flf)
+1. [Calvin S](https://inteist.com/figlet-font-gallery/#Calvin%20S.flf)
+1. [Cards](https://inteist.com/figlet-font-gallery/#Cards.flf)
+1. [Catwalk](https://inteist.com/figlet-font-gallery/#catwalk.flf)
+1. [Chiseled](https://inteist.com/figlet-font-gallery/#chiseled.flf)
+1. [Chunky](https://inteist.com/figlet-font-gallery/#chunky.flf)
+1. [Coinstak](https://inteist.com/figlet-font-gallery/#coinstak.flf)
+1. [Cola](https://inteist.com/figlet-font-gallery/#cola.flf)
+1. [Colossal](https://inteist.com/figlet-font-gallery/#colossal.flf)
+1. [Computer](https://inteist.com/figlet-font-gallery/#computer.flf)
+1. [Contessa](https://inteist.com/figlet-font-gallery/#contessa.flf)
+1. [Contrast](https://inteist.com/figlet-font-gallery/#contrast.flf)
+1. [Cosmike](https://inteist.com/figlet-font-gallery/#cosmike.flf)
+1. [Crawford](https://inteist.com/figlet-font-gallery/#crawford.flf)
+1. [Crawford2](https://inteist.com/figlet-font-gallery/#Crawford2.flf)
+1. [Crazy](https://inteist.com/figlet-font-gallery/#crazy.flf)
+1. [Cricket](https://inteist.com/figlet-font-gallery/#cricket.flf)
+1. [Cursive](https://inteist.com/figlet-font-gallery/#cursive.flf)
+1. [Cyberlarge](https://inteist.com/figlet-font-gallery/#cyberlarge.flf)
+1. [Cybermedium](https://inteist.com/figlet-font-gallery/#cybermedium.flf)
+1. [Cybersmall](https://inteist.com/figlet-font-gallery/#cybersmall.flf)
+1. [Cygnet](https://inteist.com/figlet-font-gallery/#cygnet.flf)
+1. [DANC4](https://inteist.com/figlet-font-gallery/#DANC4.flf)
+1. [DOS Rebel](https://inteist.com/figlet-font-gallery/#DOS%20Rebel.flf)
+1. [DWhistled](https://inteist.com/figlet-font-gallery/#dwhistled.flf)
+1. [Dancing Font](https://inteist.com/figlet-font-gallery/#Dancing%20Font.flf)
+1. [Decimal](https://inteist.com/figlet-font-gallery/#decimal.flf)
+1. [Def Leppard](https://inteist.com/figlet-font-gallery/#Def%20Leppard.flf)
+1. [Delta Corps Priest 1](https://inteist.com/figlet-font-gallery/#Delta%20Corps%20Priest%201.flf)
+1. [Diamond](https://inteist.com/figlet-font-gallery/#diamond.flf)
+1. [Diet Cola](https://inteist.com/figlet-font-gallery/#Diet%20Cola.flf)
+1. [Digital](https://inteist.com/figlet-font-gallery/#digital.flf)
+1. [Doh](https://inteist.com/figlet-font-gallery/#doh.flf)
+1. [Doom](https://inteist.com/figlet-font-gallery/#doom.flf)
+1. [Dot Matrix](https://inteist.com/figlet-font-gallery/#Dot%20Matrix.flf)
+1. [Double Shorts](https://inteist.com/figlet-font-gallery/#Double%20Shorts.flf)
+1. [Double](https://inteist.com/figlet-font-gallery/#double.flf)
+1. [Dr Pepper](https://inteist.com/figlet-font-gallery/#Dr%20Pepper.flf)
+1. [Efti Chess](https://inteist.com/figlet-font-gallery/#Efti%20Chess.flf)
+1. [Efti Font](https://inteist.com/figlet-font-gallery/#Efti%20Font.flf)
+1. [Efti Italic](https://inteist.com/figlet-font-gallery/#Efti%20Italic.flf)
+1. [Efti Piti](https://inteist.com/figlet-font-gallery/#Efti%20Piti.flf)
+1. [Efti Robot](https://inteist.com/figlet-font-gallery/#Efti%20Robot.flf)
+1. [Efti Wall](https://inteist.com/figlet-font-gallery/#Efti%20Wall.flf)
+1. [Efti Water](https://inteist.com/figlet-font-gallery/#Efti%20Water.flf)
+1. [Electronic](https://inteist.com/figlet-font-gallery/#Electronic.flf)
+1. [Elite](https://inteist.com/figlet-font-gallery/#Elite.flf)
+1. [Epic](https://inteist.com/figlet-font-gallery/#epic.flf)
+1. [Fender](https://inteist.com/figlet-font-gallery/#fender.flf)
+1. [Filter](https://inteist.com/figlet-font-gallery/#filter.flf)
+1. [Fire Font-k](https://inteist.com/figlet-font-gallery/#Fire%20Font-k.flf)
+1. [Fire Font-s](https://inteist.com/figlet-font-gallery/#Fire%20Font-s.flf)
+1. [Flipped](https://inteist.com/figlet-font-gallery/#flipped.flf)
+1. [Flower Power](https://inteist.com/figlet-font-gallery/#Flower%20Power.flf)
+1. [Four Tops](https://inteist.com/figlet-font-gallery/#Four%20Tops.flf)
+1. [Fraktur](https://inteist.com/figlet-font-gallery/#fraktur.flf)
+1. [Fun Face](https://inteist.com/figlet-font-gallery/#Fun%20Face.flf)
+1. [Fun Faces](https://inteist.com/figlet-font-gallery/#Fun%20Faces.flf)
+1. [Fuzzy](https://inteist.com/figlet-font-gallery/#fuzzy.flf)
+1. [Georgi16](https://inteist.com/figlet-font-gallery/#georgi16.flf)
+1. [Georgia11](https://inteist.com/figlet-font-gallery/#Georgia11.flf)
+1. [Ghost](https://inteist.com/figlet-font-gallery/#ghost.flf)
+1. [Ghoulish](https://inteist.com/figlet-font-gallery/#ghoulish.flf)
+1. [Glenyn](https://inteist.com/figlet-font-gallery/#glenyn.flf)
+1. [Goofy](https://inteist.com/figlet-font-gallery/#goofy.flf)
+1. [Gothic](https://inteist.com/figlet-font-gallery/#gothic.flf)
+1. [Graceful](https://inteist.com/figlet-font-gallery/#graceful.flf)
+1. [Gradient](https://inteist.com/figlet-font-gallery/#gradient.flf)
+1. [Graffiti](https://inteist.com/figlet-font-gallery/#graffiti.flf)
+1. [Greek](https://inteist.com/figlet-font-gallery/#greek.flf)
+1. [Heart Left](https://inteist.com/figlet-font-gallery/#Heart%20Left.flf)
+1. [Heart Right](https://inteist.com/figlet-font-gallery/#Heart%20Right.flf)
+1. [Henry 3D](https://inteist.com/figlet-font-gallery/#Henry%203D.flf)
+1. [Hex](https://inteist.com/figlet-font-gallery/#hex.flf)
+1. [Hieroglyphs](https://inteist.com/figlet-font-gallery/#hieroglyphs.flf)
+1. [Hollywood](https://inteist.com/figlet-font-gallery/#hollywood.flf)
+1. [Horizontal Left](https://inteist.com/figlet-font-gallery/#Horizontal%20Left.flf)
+1. [Horizontal Right](https://inteist.com/figlet-font-gallery/#Horizontal%20Right.flf)
+1. [ICL-1900](https://inteist.com/figlet-font-gallery/#ICL-1900.flf)
+1. [Impossible](https://inteist.com/figlet-font-gallery/#impossible.flf)
+1. [Invita](https://inteist.com/figlet-font-gallery/#invita.flf)
+1. [Isometric1](https://inteist.com/figlet-font-gallery/#isometric1.flf)
+1. [Isometric2](https://inteist.com/figlet-font-gallery/#isometric2.flf)
+1. [Isometric3](https://inteist.com/figlet-font-gallery/#isometric3.flf)
+1. [Isometric4](https://inteist.com/figlet-font-gallery/#isometric4.flf)
+1. [Italic](https://inteist.com/figlet-font-gallery/#italic.flf)
+1. [Ivrit](https://inteist.com/figlet-font-gallery/#ivrit.flf)
+1. [JS Block Letters](https://inteist.com/figlet-font-gallery/#JS%20Block%20Letters.flf)
+1. [JS Bracket Letters](https://inteist.com/figlet-font-gallery/#JS%20Bracket%20Letters.flf)
+1. [JS Capital Curves](https://inteist.com/figlet-font-gallery/#JS%20Capital%20Curves.flf)
+1. [JS Cursive](https://inteist.com/figlet-font-gallery/#JS%20Cursive.flf)
+1. [JS Stick Letters](https://inteist.com/figlet-font-gallery/#JS%20Stick%20Letters.flf)
+1. [Jacky](https://inteist.com/figlet-font-gallery/#jacky.flf)
+1. [Jazmine](https://inteist.com/figlet-font-gallery/#jazmine.flf)
+1. [Jerusalem](https://inteist.com/figlet-font-gallery/#jerusalem.flf)
+1. [Katakana](https://inteist.com/figlet-font-gallery/#katakana.flf)
+1. [Kban](https://inteist.com/figlet-font-gallery/#kban.flf)
+1. [Keyboard](https://inteist.com/figlet-font-gallery/#keyboard.flf)
+1. [Knob](https://inteist.com/figlet-font-gallery/#knob.flf)
+1. [Konto Slant](https://inteist.com/figlet-font-gallery/#Konto%20Slant.flf)
+1. [Konto](https://inteist.com/figlet-font-gallery/#konto.flf)
+1. [LCD](https://inteist.com/figlet-font-gallery/#lcd.flf)
+1. [Larry 3D 2](https://inteist.com/figlet-font-gallery/#Larry%203D%202.flf)
+1. [Larry 3D](https://inteist.com/figlet-font-gallery/#Larry%203D.flf)
+1. [Lean](https://inteist.com/figlet-font-gallery/#lean.flf)
+1. [Letters](https://inteist.com/figlet-font-gallery/#letters.flf)
+1. [Lil Devil](https://inteist.com/figlet-font-gallery/#Lil%20Devil.flf)
+1. [Line Blocks](https://inteist.com/figlet-font-gallery/#Line%20Blocks.flf)
+1. [Linux](https://inteist.com/figlet-font-gallery/#linux.flf)
+1. [Lockergnome](https://inteist.com/figlet-font-gallery/#lockergnome.flf)
+1. [Madrid](https://inteist.com/figlet-font-gallery/#madrid.flf)
+1. [Marquee](https://inteist.com/figlet-font-gallery/#marquee.flf)
+1. [Maxfour](https://inteist.com/figlet-font-gallery/#maxfour.flf)
+1. [Merlin1](https://inteist.com/figlet-font-gallery/#merlin1.flf)
+1. [Merlin2](https://inteist.com/figlet-font-gallery/#merlin2.flf)
+1. [Mike](https://inteist.com/figlet-font-gallery/#mike.flf)
+1. [Mini](https://inteist.com/figlet-font-gallery/#mini.flf)
+1. [Mirror](https://inteist.com/figlet-font-gallery/#mirror.flf)
+1. [Mnemonic](https://inteist.com/figlet-font-gallery/#mnemonic.flf)
+1. [Modular](https://inteist.com/figlet-font-gallery/#modular.flf)
+1. [Morse](https://inteist.com/figlet-font-gallery/#morse.flf)
+1. [Morse2](https://inteist.com/figlet-font-gallery/#morse2.flf)
+1. [Moscow](https://inteist.com/figlet-font-gallery/#moscow.flf)
+1. [Mshebrew210](https://inteist.com/figlet-font-gallery/#mshebrew210.flf)
+1. [Muzzle](https://inteist.com/figlet-font-gallery/#muzzle.flf)
+1. [NScript](https://inteist.com/figlet-font-gallery/#nscript.flf)
+1. [NT Greek](https://inteist.com/figlet-font-gallery/#NT%20Greek.flf)
+1. [NV Script](https://inteist.com/figlet-font-gallery/#NV%20Script.flf)
+1. [Nancyj-Fancy](https://inteist.com/figlet-font-gallery/#nancyj-fancy.flf)
+1. [Nancyj-Improved](https://inteist.com/figlet-font-gallery/#nancyj-improved.flf)
+1. [Nancyj-Underlined](https://inteist.com/figlet-font-gallery/#nancyj-underlined.flf)
+1. [Nancyj](https://inteist.com/figlet-font-gallery/#nancyj.flf)
+1. [Nipples](https://inteist.com/figlet-font-gallery/#nipples.flf)
+1. [O8](https://inteist.com/figlet-font-gallery/#O8.flf)
+1. [OS2](https://inteist.com/figlet-font-gallery/#os2.flf)
+1. [Octal](https://inteist.com/figlet-font-gallery/#octal.flf)
+1. [Ogre](https://inteist.com/figlet-font-gallery/#ogre.flf)
+1. [Old Banner](https://inteist.com/figlet-font-gallery/#Old%20Banner.flf)
+1. [Patorjk's Cheese](https://inteist.com/figlet-font-gallery/#Patorjk's%20Cheese.flf)
+1. [Patorjk-HeX](https://inteist.com/figlet-font-gallery/#Patorjk-HeX.flf)
+1. [Pawp](https://inteist.com/figlet-font-gallery/#pawp.flf)
+1. [Peaks Slant](https://inteist.com/figlet-font-gallery/#Peaks%20Slant.flf)
+1. [Peaks](https://inteist.com/figlet-font-gallery/#peaks.flf)
+1. [Pebbles](https://inteist.com/figlet-font-gallery/#pebbles.flf)
+1. [Pepper](https://inteist.com/figlet-font-gallery/#pepper.flf)
+1. [Poison](https://inteist.com/figlet-font-gallery/#poison.flf)
+1. [Puffy](https://inteist.com/figlet-font-gallery/#puffy.flf)
+1. [Puzzle](https://inteist.com/figlet-font-gallery/#puzzle.flf)
+1. [Pyramid](https://inteist.com/figlet-font-gallery/#pyramid.flf)
+1. [Rammstein](https://inteist.com/figlet-font-gallery/#rammstein.flf)
+1. [Rectangles](https://inteist.com/figlet-font-gallery/#rectangles.flf)
+1. [Red Phoenix](https://inteist.com/figlet-font-gallery/#Red%20Phoenix.flf)
+1. [Relief](https://inteist.com/figlet-font-gallery/#relief.flf)
+1. [Relief2](https://inteist.com/figlet-font-gallery/#relief2.flf)
+1. [Reverse](https://inteist.com/figlet-font-gallery/#reverse.flf)
+1. [Roman](https://inteist.com/figlet-font-gallery/#roman.flf)
+1. [Rot13](https://inteist.com/figlet-font-gallery/#rot13.flf)
+1. [Rot13.php](https://inteist.com/figlet-font-gallery/#rot13.flf)
+1. [Rotated](https://inteist.com/figlet-font-gallery/#rotated.flf)
+1. [Rounded](https://inteist.com/figlet-font-gallery/#rounded.flf)
+1. [Rowan Cap](https://inteist.com/figlet-font-gallery/#Rowan%20Cap.flf)
+1. [Rozzo](https://inteist.com/figlet-font-gallery/#rozzo.flf)
+1. [Runic](https://inteist.com/figlet-font-gallery/#runic.flf)
+1. [Runyc](https://inteist.com/figlet-font-gallery/#runyc.flf)
+1. [S Blood](https://inteist.com/figlet-font-gallery/#S%20Blood.flf)
+1. [SL Script](https://inteist.com/figlet-font-gallery/#SL%20Script.flf)
+1. [Santa Clara](https://inteist.com/figlet-font-gallery/#Santa%20Clara.flf)
+1. [Script](https://inteist.com/figlet-font-gallery/#script.flf)
+1. [Serifcap](https://inteist.com/figlet-font-gallery/#serifcap.flf)
+1. [Shadow](https://inteist.com/figlet-font-gallery/#shadow.flf)
+1. [Shimrod](https://inteist.com/figlet-font-gallery/#shimrod.flf)
+1. [Short](https://inteist.com/figlet-font-gallery/#short.flf)
+1. [Slant Relief](https://inteist.com/figlet-font-gallery/#Slant%20Relief.flf)
+1. [Slant](https://inteist.com/figlet-font-gallery/#slant.flf)
+1. [Slide](https://inteist.com/figlet-font-gallery/#slide.flf)
+1. [Small Caps](https://inteist.com/figlet-font-gallery/#Small%20Caps.flf)
+1. [Small Isometric1](https://inteist.com/figlet-font-gallery/#Small%20Isometric1.flf)
+1. [Small Keyboard](https://inteist.com/figlet-font-gallery/#Small%20Keyboard.flf)
+1. [Small Poison](https://inteist.com/figlet-font-gallery/#Small%20Poison.flf)
+1. [Small Script](https://inteist.com/figlet-font-gallery/#Small%20Script.flf)
+1. [Small Shadow](https://inteist.com/figlet-font-gallery/#Small%20Shadow.flf)
+1. [Small Slant](https://inteist.com/figlet-font-gallery/#Small%20Slant.flf)
+1. [Small Tengwar](https://inteist.com/figlet-font-gallery/#Small%20Tengwar.flf)
+1. [Small](https://inteist.com/figlet-font-gallery/#small.flf)
+1. [Soft](https://inteist.com/figlet-font-gallery/#soft.flf)
+1. [Speed](https://inteist.com/figlet-font-gallery/#speed.flf)
+1. [Spliff](https://inteist.com/figlet-font-gallery/#spliff.flf)
+1. [Stacey](https://inteist.com/figlet-font-gallery/#stacey.flf)
+1. [Stampate](https://inteist.com/figlet-font-gallery/#stampate.flf)
+1. [Stampatello](https://inteist.com/figlet-font-gallery/#stampatello.flf)
+1. [Standard](https://inteist.com/figlet-font-gallery/#standard.flf)
+1. [Star Strips](https://inteist.com/figlet-font-gallery/#Star%20Strips.flf)
+1. [Star Wars](https://inteist.com/figlet-font-gallery/#Star%20Wars.flf)
+1. [Stellar](https://inteist.com/figlet-font-gallery/#stellar.flf)
+1. [Stforek](https://inteist.com/figlet-font-gallery/#stforek.flf)
+1. [Stick Letters](https://inteist.com/figlet-font-gallery/#Stick%20Letters.flf)
+1. [Stop](https://inteist.com/figlet-font-gallery/#stop.flf)
+1. [Straight](https://inteist.com/figlet-font-gallery/#straight.flf)
+1. [Stronger Than All](https://inteist.com/figlet-font-gallery/#Stronger%20Than%20All.flf)
+1. [Sub-Zero](https://inteist.com/figlet-font-gallery/#sub-Zero.flf)
+1. [Swamp Land](https://inteist.com/figlet-font-gallery/#Swamp%20Land.flf)
+1. [Swan](https://inteist.com/figlet-font-gallery/#swan.flf)
+1. [Sweet](https://inteist.com/figlet-font-gallery/#sweet.flf)
+1. [THIS](https://inteist.com/figlet-font-gallery/#THIS.flf)
+1. [Tanja](https://inteist.com/figlet-font-gallery/#tanja.flf)
+1. [Tengwar](https://inteist.com/figlet-font-gallery/#tengwar.flf)
+1. [Term](https://inteist.com/figlet-font-gallery/#term.flf)
+1. [Test1](https://inteist.com/figlet-font-gallery/#test1.flf)
+1. [The Edge](https://inteist.com/figlet-font-gallery/#The%20Edge.flf)
+1. [Thick](https://inteist.com/figlet-font-gallery/#thick.flf)
+1. [Thin](https://inteist.com/figlet-font-gallery/#thin.flf)
+1. [Thorned](https://inteist.com/figlet-font-gallery/#Thorned.flf)
+1. [Three Point](https://inteist.com/figlet-font-gallery/#Three%20Point.flf)
+1. [Ticks Slant](https://inteist.com/figlet-font-gallery/#Ticks%20Slant.flf)
+1. [Ticks](https://inteist.com/figlet-font-gallery/#ticks.flf)
+1. [Tiles](https://inteist.com/figlet-font-gallery/#tiles.flf)
+1. [Tinker-Toy](https://inteist.com/figlet-font-gallery/#tinker-toy.flf)
+1. [Tombstone](https://inteist.com/figlet-font-gallery/#tombstone.flf)
+1. [Train](https://inteist.com/figlet-font-gallery/#train.flf)
+1. [Trek](https://inteist.com/figlet-font-gallery/#trek.flf)
+1. [Tsalagi](https://inteist.com/figlet-font-gallery/#tsalagi.flf)
+1. [Tubular](https://inteist.com/figlet-font-gallery/#tubular.flf)
+1. [Twisted](https://inteist.com/figlet-font-gallery/#twisted.flf)
+1. [Two Point](https://inteist.com/figlet-font-gallery/#Two%20Point.flf)
+1. [USA Flag](https://inteist.com/figlet-font-gallery/#USA%20Flag.flf)
+1. [Univers](https://inteist.com/figlet-font-gallery/#univers.flf)
+1. [Varsity](https://inteist.com/figlet-font-gallery/#varsity.flf)
+1. [Wavy](https://inteist.com/figlet-font-gallery/#wavy.flf)
+1. [Weird](https://inteist.com/figlet-font-gallery/#weird.flf)
+1. [Wet Letter](https://inteist.com/figlet-font-gallery/#Wet%20Letter.flf)
+1. [Whimsy](https://inteist.com/figlet-font-gallery/#whimsy.flf)
+1. [Wow](https://inteist.com/figlet-font-gallery/#wow.flf)
