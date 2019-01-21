@@ -9,7 +9,7 @@ Library _asciiart-logo_ creates a rectangular panel with ASCII-art from applicat
 
 ## Usage
 
-_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](FONTS.md) in the library.
+_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](gallery.txt) in the library.
 
 ``` JavaScript
 const logo = require('asciiart-logo');
