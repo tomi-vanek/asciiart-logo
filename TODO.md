@@ -1,4 +1,4 @@
 # Ideas - Backlog
 
 1. Documentation: lineLen
-1. Color?
+1. Color
