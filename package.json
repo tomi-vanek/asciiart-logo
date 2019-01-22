@@ -1,7 +1,7 @@
 {
     "name": "asciiart-logo",
-    "version": "0.1.15",
-    "description": "Logo from ASCII characters in text console.",
+    "version": "0.1.16",
+    "description": "Splashscreen with logo from ASCII characters in text console.",
     "main": "./logo.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
