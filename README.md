@@ -1,6 +1,8 @@
 # asciiart-logo
 
-Library _asciiart-logo_ creates a rectangular panel with ASCII-art from application name, and optional additional information (author, application version, etc). It can be used as a splashscreen for command line tools and by starting a web server or a REST API microservice to provade basic information and give visual feedback to the user about successful start / execution.
+Library _asciiart-logo_ creates a rectangular panel with ASCII-art from application name, and optional additional information (author, application version, etc).
+
+_asciiart-logo_ can be used as a splashscreen for command line tools and by starting a web server or a REST API microservice to provide basic application description and give a visual feedback to the user or administrator about successful start and execution of the application.
 
 ## Quick Start
 
