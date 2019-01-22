@@ -17,7 +17,8 @@
         "logo",
         "cli",
         "node",
-        "font"
+        "font",
+        "ascii"
     ],
     "author": "tomi vanek",
     "license": "Unlicense",
