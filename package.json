@@ -1,6 +1,6 @@
 {
     "name": "asciiart-logo",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "description": "Logo from ASCII characters in text console.",
     "main": "./logo.js",
     "scripts": {
@@ -11,11 +11,13 @@
         "url": "git+https://github.com/tomi-vanek/asciiart-logo.git"
     },
     "keywords": [
-        "ascii-art",
+        "splashscreen",
+        "asciiart",
         "figlet",
         "logo",
         "cli",
-        "node"
+        "node",
+        "font"
     ],
     "author": "tomi vanek",
     "license": "Unlicense",
