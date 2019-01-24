@@ -11,7 +11,7 @@ _asciiart-logo_ can be used by starting of command line tools, web servers or RE
 
 ## Simple Usage: Default Splash Screen
 
-[Simplest usage](./example.js)  is to provide the `package.json` file:
+[Simplest usage](./example.js)  is to provide the `package.json` file and call the method render:
 
 ``` JavaScript
 const logo = require('asciiart-logo');
@@ -43,16 +43,22 @@ The text in splash screen is wrapped according the size of logo. Spaces, new lin
 * __wrap__ - synonym to function _left_
 * __emptyLine__ - add empty line into the panel
 
+Method __render()__ must be the last one to call and writes out the splash screen to console.
+
 ## Example with parametrization and text functions
 
 ``` JavaScript
-const longDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
-    'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ' +
-    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ' +
-    'nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ' +
-    'in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ' +
-    'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui ' +
-    'officia deserunt mollit anim id est laborum.';
+const longText = 'Lorem ipsum dolor sit amet, ' +
+    'consectetur adipiscing elit, ' +
+    'sed do eiusmod tempor incididunt ut labore et ' +
+    'dolore magna aliqua. Ut enim ad minim veniam, ' +
+    'quis nostrud exercitation ullamco laboris ' +
+    'nisi ut aliquip ex ea commodo consequat. Duis aute ' +
+    'irure dolor in reprehenderit in voluptate velit esse ' +
+    'cillum dolore eu fugiat nulla pariatur. ' +
+    'Excepteur sint occaecat cupidatat non proident, ' +
+    'sunt in culpa qui officia deserunt mollit anim ' +
+    'id est laborum.';
 
 console.log(
     logo({
@@ -65,7 +71,7 @@ console.log(
     .emptyLine()
     .right('version 3.7.123')
     .emptyLine()
-    .center(longDescription)
+    .center(longText)
     .render()
 );
 ```
