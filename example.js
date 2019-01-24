@@ -1,10 +1,5 @@
-#!/usr/bin/env node
-
-'use strict';
-
-// const logo = require('asciiart-logo');
+// from node_modules: const logo = require('asciiart-logo');
 const logo = require('./logo');
-
-let config = require('./package.json');
-config.font = 'Colossal';
+const config = require('./package.json');
+config.font = 'Small';
 console.log(logo(config).render());

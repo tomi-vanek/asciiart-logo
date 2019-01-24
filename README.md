@@ -1,43 +1,72 @@
-# asciiart-logo
+# ASCIIart Logo
 
-Library _asciiart-logo_ creates a splash screen with logo from ASCII characters in text console. Splash screen is a rectangular panel and logo is the application name  rendered by ASCII-art [fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
+_asciiart-logo_ creates a splash screen with logo from ASCII characters in text console. Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
 
 _asciiart-logo_ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application.
 
 ## Quick Start
 
-1. Download and installation of the library `npm install asciiart-logo`
-2. Test the output with `node example.js`
+1. Download and install with command `npm install asciiart-logo`
+1. See in action with command `node example.js`
 
-## Usage
+## Simple Usage: Default Splash Screen
 
-Simplest usage is to provide the `package.json` file and select a font to render the splash screen - see [example code](./example.js). For more complex scenarios you may adjust padding and margin of the panel and number of characters of the logo in single line (parameter `lineChars`) - this parameter determines word wrapping in logo and indirectly the width of the panel.
-
-_asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](gallery.txt) in the library.
-
-An example with explicit prameters:
-
-* name - applicaiton name in ascii-art logo
-* font - selected from the [font gallery](gallery.txt)
-* lineChars - length of line in name (ascii-art logo) for word wrapping
-* padding - lspace around the panel around text (like in CSS)
-* margin - left space outside of the panel
+[Simplest usage](./example.js)  is to provide the `package.json` file:
 
 ``` JavaScript
 const logo = require('asciiart-logo');
+const config = require('./package.json');
+console.log(logo(config).render());
+```
+
+## Rich Usage: Explicit Parametrization
+
+The main impression of the splash screen is shaped by the selection of the right [ASCII-art font](gallery.txt).
+
+Number of characters of the logo in single line (parameter `lineChars`) controls word wrapping logic in logo rendering and indirectly the width of the panel.
+
+You can adjust also padding and margin of the panel.
+
+* __name__ - applicaiton name in ascii-art logo (name parameter in project.json defines name of the application)
+* __font__ - ASCII-art font from the [font gallery](gallery.txt) - default font is `Standard`
+* __lineChars__ - length of line in name (ascii-art logo) for word wrapping
+* __padding__ - space around the panel around text (like in CSS) - default is 5
+* __margin__ - left space outside of the panel - default is 2
+
+## Text functions
+
+The text in splash screen is wrapped according the size of logo. Spaces, new lines, tabs are squeezed into single space. Text can be programmatically writen with functions:
+
+* __left__ - text is alligned to left or wrapped
+* __right__ - text is alligned to right or wrapped
+* __center__ - text is alligned to center or wrapped
+* __wrap__ - synonym to function _left_
+* __emptyLine__ - add empty line into the panel
+
+## Example with parametrization and text functions
+
+``` JavaScript
+const longDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, ' +
+    'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ' +
+    'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ' +
+    'nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor ' +
+    'in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ' +
+    'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui ' +
+    'officia deserunt mollit anim id est laborum.';
+
 console.log(
-  logo({
-    name: 'Foo Bar',
-    font: 'Speed',
-    lineChars: 15,
-    padding: 5,
-    margin: 2
-  })
-  .emptyLine()
-  .right('version 3.7.123')
-  .emptyLine()
-  .wrap('This is a longer text that describes the values of the component for command line applications.')
-  .render()
+    logo({
+        name: 'parametrization in a simple example',
+        font: 'Speed',
+        lineChars: 15,
+        padding: 2,
+        margin: 4
+    })
+    .emptyLine()
+    .right('version 3.7.123')
+    .emptyLine()
+    .center(longDescription)
+    .render()
 );
 ```
 
@@ -45,26 +74,37 @@ console.log(
 
 ``` console
 
-  ,------------------------------------------------------------.  
-  |                                                            |  
-  |                                                            |  
-  |     __________                 ________                    |  
-  |     ___  ____/___________      ___  __ )_____ ________     |  
-  |     __  /_   _  __ \  __ \     __  __  |  __ `/_  ___/     |  
-  |     _  __/   / /_/ / /_/ /     _  /_/ // /_/ /_  /         |  
-  |     /_/      \____/\____/      /_____/ \__,_/ /_/          |  
-  |                                                            |  
-  |                                                            |  
-  |                                        version 3.7.123     |  
-  |                                                            |  
-  |     This is a longer text that describes the values of     |  
-  |     the component for command line applications.           |  
-  |                                                            |  
-  |                                                            |  
-  `------------------------------------------------------------'  
+
+    ,-------------------------------------------------------------------------------------------------------.
+    |                                                                                                       |
+    |  ________                                     _____       _____             __________                |
+    |  ___  __ \_____ _____________ _______ __________  /__________(_)___________ __  /___(_)____________   |
+    |  __  /_/ /  __ `/_  ___/  __ `/_  __ `__ \  _ \  __/_  ___/_  /___  /_  __ `/  __/_  /_  __ \_  __ \  |
+    |  _  ____// /_/ /_  /   / /_/ /_  / / / / /  __/ /_ _  /   _  / __  /_/ /_/ // /_ _  / / /_/ /  / / /  |
+    |  /_/     \__,_/ /_/    \__,_/ /_/ /_/ /_/\___/\__/ /_/    /_/  _____/\__,_/ \__/ /_/  \____//_/ /_/   |
+    |                                                                                                       |
+    |  _____                        ____________                   ______                                   |
+    |  ___(_)______     ______ _    __  ___/__(_)______ ______________  /____                               |
+    |  __  /__  __ \    _  __ `/    _____ \__  /__  __ `__ \__  __ \_  /_  _ \                              |
+    |  _  / _  / / /    / /_/ /     ____/ /_  / _  / / / / /_  /_/ /  / /  __/                              |
+    |  /_/  /_/ /_/     \__,_/      /____/ /_/  /_/ /_/ /_/_  .___//_/  \___/                               |
+    |                                                      /_/                                              |
+    |  __________                                ______                                                     |
+    |  ___  ____/___  _______ _______ ______________  /____                                                 |
+    |  __  __/  __  |/_/  __ `/_  __ `__ \__  __ \_  /_  _ \                                                |
+    |  _  /___  __>  < / /_/ /_  / / / / /_  /_/ /  / /  __/                                                |
+    |  /_____/  /_/|_| \__,_/ /_/ /_/ /_/_  .___//_/  \___/                                                 |
+    |                                    /_/                                                                |
+    |                                                                                                       |
+    |                                                                                      version 3.7.123  |
+    |                                                                                                       |
+    |  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  |
+    |  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut   |
+    |    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse    |
+    |    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in    |
+    |                        culpa qui officia deserunt mollit anim id est laborum.                         |
+    |                                                                                                       |
+    `-------------------------------------------------------------------------------------------------------'
+
 
 ```
-
-## Dependency
-
-Component uses the library [figlet](https://www.npmjs.com/package/figlet) for ASCII art text rendering.
