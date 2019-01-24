@@ -11,7 +11,17 @@ _asciiart-logo_ can be used by starting of command line tools, web servers or RE
 
 ## Usage
 
+Simplest usage is to provide the `package.json` file and select a font to render the splash screen - see [example code](./example.js). For more complex scenarios you may adjust padding and margin of the panel and number of characters of the logo in single line (parameter `lineChars`) - this parameter determines word wrapping in logo and indirectly the width of the panel.
+
 _asciiart-logo_ uses [FIGlet](http://www.figlet.org/examples.html) fonts for ASCII art title text. See [available fonts](gallery.txt) in the library.
+
+An example with explicit prameters:
+
+* name - applicaiton name in ascii-art logo
+* font - selected from the [font gallery](gallery.txt)
+* lineChars - length of line in name (ascii-art logo) for word wrapping
+* padding - lspace around the panel around text (like in CSS)
+* margin - left space outside of the panel
 
 ``` JavaScript
 const logo = require('asciiart-logo');
@@ -54,8 +64,6 @@ console.log(
   `------------------------------------------------------------'  
 
 ```
-
-You may be interested also in complete [example code](./example.js) that shows typical usage of the asciiart-logo library.
 
 ## Dependency
 
