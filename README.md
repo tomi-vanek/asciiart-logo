@@ -56,11 +56,11 @@ const longDescription = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 console.log(
     logo({
-        name: 'parametrization in a simple example',
+        name: 'Just a simple example',
         font: 'Speed',
-        lineChars: 15,
+        lineChars: 10,
         padding: 2,
-        margin: 4
+        margin: 3
     })
     .emptyLine()
     .right('version 3.7.123')
@@ -74,37 +74,39 @@ console.log(
 
 ``` console
 
-
-    ,-------------------------------------------------------------------------------------------------------.
-    |                                                                                                       |
-    |  ________                                     _____       _____             __________                |
-    |  ___  __ \_____ _____________ _______ __________  /__________(_)___________ __  /___(_)____________   |
-    |  __  /_/ /  __ `/_  ___/  __ `/_  __ `__ \  _ \  __/_  ___/_  /___  /_  __ `/  __/_  /_  __ \_  __ \  |
-    |  _  ____// /_/ /_  /   / /_/ /_  / / / / /  __/ /_ _  /   _  / __  /_/ /_/ // /_ _  / / /_/ /  / / /  |
-    |  /_/     \__,_/ /_/    \__,_/ /_/ /_/ /_/\___/\__/ /_/    /_/  _____/\__,_/ \__/ /_/  \____//_/ /_/   |
-    |                                                                                                       |
-    |  _____                        ____________                   ______                                   |
-    |  ___(_)______     ______ _    __  ___/__(_)______ ______________  /____                               |
-    |  __  /__  __ \    _  __ `/    _____ \__  /__  __ `__ \__  __ \_  /_  _ \                              |
-    |  _  / _  / / /    / /_/ /     ____/ /_  / _  / / / / /_  /_/ /  / /  __/                              |
-    |  /_/  /_/ /_/     \__,_/      /____/ /_/  /_/ /_/ /_/_  .___//_/  \___/                               |
-    |                                                      /_/                                              |
-    |  __________                                ______                                                     |
-    |  ___  ____/___  _______ _______ ______________  /____                                                 |
-    |  __  __/  __  |/_/  __ `/_  __ `__ \__  __ \_  /_  _ \                                                |
-    |  _  /___  __>  < / /_/ /_  / / / / /_  /_/ /  / /  __/                                                |
-    |  /_____/  /_/|_| \__,_/ /_/ /_/ /_/_  .___//_/  \___/                                                 |
-    |                                    /_/                                                                |
-    |                                                                                                       |
-    |                                                                                      version 3.7.123  |
-    |                                                                                                       |
-    |  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore  |
-    |  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut   |
-    |    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse    |
-    |    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in    |
-    |                        culpa qui officia deserunt mollit anim id est laborum.                         |
-    |                                                                                                       |
-    `-------------------------------------------------------------------------------------------------------'
-
+   ,---------------------------------------------------------.
+   |                                                         |
+   |  _________             _____                            |
+   |  ______  /___  __________  /_   ______ _                |
+   |  ___ _  /_  / / /_  ___/  __/   _  __ `/                |
+   |  / /_/ / / /_/ /_(__  )/ /_     / /_/ /                 |
+   |  \____/  \__,_/ /____/ \__/     \__,_/                  |
+   |                                                         |
+   |  ____________                   ______                  |
+   |  __  ___/__(_)______ ______________  /____              |
+   |  _____ \__  /__  __ `__ \__  __ \_  /_  _ \             |
+   |  ____/ /_  / _  / / / / /_  /_/ /  / /  __/             |
+   |  /____/ /_/  /_/ /_/ /_/_  .___//_/  \___/              |
+   |                         /_/                             |
+   |  __________                                ______       |
+   |  ___  ____/___  _______ _______ ______________  /____   |
+   |  __  __/  __  |/_/  __ `/_  __ `__ \__  __ \_  /_  _ \  |
+   |  _  /___  __>  < / /_/ /_  / / / / /_  /_/ /  / /  __/  |
+   |  /_____/  /_/|_| \__,_/ /_/ /_/ /_/_  .___//_/  \___/   |
+   |                                    /_/                  |
+   |                                                         |
+   |                                        version 3.7.123  |
+   |                                                         |
+   |   Lorem ipsum dolor sit amet, consectetur adipiscing    |
+   |   elit, sed do eiusmod tempor incididunt ut labore et   |
+   |   dolore magna aliqua. Ut enim ad minim veniam, quis    |
+   |  nostrud exercitation ullamco laboris nisi ut aliquip   |
+   |    ex ea commodo consequat. Duis aute irure dolor in    |
+   |   reprehenderit in voluptate velit esse cillum dolore   |
+   |    eu fugiat nulla pariatur. Excepteur sint occaecat    |
+   |    cupidatat non proident, sunt in culpa qui officia    |
+   |          deserunt mollit anim id est laborum.           |
+   |                                                         |
+   `---------------------------------------------------------'
 
 ```
