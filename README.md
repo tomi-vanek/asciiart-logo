@@ -19,6 +19,12 @@ const config = require('./package.json');
 console.log(logo(config).render());
 ```
 
+The _asciiart-logo_ will render following information from the `package.json`:
+
+* __name__ - rendered with ASCII-art font to dominate the splash screen
+* __version__ - right-alligned so it will not "fight" for reader's attention
+* __description__ - short information about the project
+
 ## Rich Usage: Explicit Parametrization
 
 The main impression of the splash screen is shaped by the selection of the right [ASCII-art font](gallery.txt).
