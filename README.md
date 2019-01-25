@@ -1,8 +1,8 @@
-# ASCIIart Logo
+# ASCII-art Logo
 
-_asciiart-logo_ creates a splash screen with logo from ASCII characters in text console. Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
+__asciiart-logo__ creates a splash screen with logo from ASCII characters in text console. Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
 
-_asciiart-logo_ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application.
+__asciiart-logo__ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application.
 
 ## Quick Start
 
@@ -11,7 +11,7 @@ _asciiart-logo_ can be used by starting of command line tools, web servers or RE
 
 ## Simple Usage: Default Splash Screen
 
-[Simplest usage](./example.js)  is to provide the `package.json` file and call the method render:
+[Simplest usage](./example.js)  is to provide the `package.json` file and call the method render to write out the splash screen to console:
 
 ``` JavaScript
 const logo = require('asciiart-logo');
@@ -19,7 +19,7 @@ const config = require('./package.json');
 console.log(logo(config).render());
 ```
 
-The _asciiart-logo_ will render following information from the `package.json`:
+The __asciiart-logo__ will render following information from the `package.json`:
 
 * __name__ - rendered with ASCII-art font to dominate the splash screen
 * __version__ - right-alligned so it will not "fight" for reader's attention
@@ -49,7 +49,7 @@ The text in splash screen is wrapped according the size of logo. Spaces, new lin
 * __wrap__ - synonym to function _left_
 * __emptyLine__ - add empty line into the panel
 
-Method __render()__ must be the last one to call and writes out the splash screen to console.
+Method __render()__ must be the last one to call - it writes out the splash screen to console.
 
 ## Example with parametrization and text functions
 
