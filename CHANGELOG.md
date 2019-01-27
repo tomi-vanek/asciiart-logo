@@ -1,5 +1,9 @@
 # ASCIIART-LOGO Changelog
 
+## 2.1.0
+
+* Color
+
 ## 2.0.0
 
 * Removed unnecesary spaces on end of line

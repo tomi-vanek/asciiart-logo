@@ -1,7 +1,7 @@
 {
     "name": "asciiart-logo",
     "version": "0.2.4",
-    "description": "Splashscreen with logo from ASCII characters in text console.",
+    "description": "Splashscreen in text console with logo from ASCII characters",
     "main": "./logo.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,7 @@
     },
     "homepage": "https://github.com/tomi-vanek/asciiart-logo#readme",
     "dependencies": {
+        "chalk": "^2.4.2",
         "figlet": "^1.2.0",
         "to-title-case": "^1.0.0"
     }

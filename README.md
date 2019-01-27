@@ -1,6 +1,8 @@
 # ASCII-art Logo
 
-__asciiart-logo__ creates a splash screen with logo from ASCII characters in text console. Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
+__asciiart-logo__ _renders a splash screen in text console with logo from ASCII characters._
+
+Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
 
 __asciiart-logo__ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application. Example console output from this project's [package.json](package.json):
 
@@ -68,6 +70,19 @@ The text in splash screen is wrapped according the size of logo. Spaces, new lin
 
 Method __render()__ must be the last one to call - it writes out the splash screen to console.
 
+## Color
+
+Default usage prints the splash screen with default color. Splash screen can be colored by parameters:
+
+* __logoColor__
+* __textColor__
+* __borderColor__
+
+Color can have following values:
+
+* `black`, `red`, `green`, `blue`, `yellow`, `magenta`, `cyan`, `white`
+* `bold-black`, `bold-red`, `bold-green`, `bold-blue`, `bold-yellow`, `bold-magenta`, `bold-cyan`, `bold-white`
+
 ## Example with parametrization and text functions
 
 ``` JavaScript
@@ -89,7 +104,10 @@ console.log(
         font: 'Speed',
         lineChars: 10,
         padding: 2,
-        margin: 3
+        margin: 3,
+        borderColor: 'grey',
+        logoColor: 'bold-green',
+        textColor: 'green',
     })
     .emptyLine()
     .right('version 3.7.123')
@@ -139,3 +157,11 @@ console.log(
    `---------------------------------------------------------'
 
 ```
+
+## Credits
+
+The _asciiart-logo_ uses following awsome libraries:
+
+* ASCII-art font Font rendering: __fiddler__
+* Color: __chalk__
+* Text in title case: __to-title-case__
