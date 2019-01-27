@@ -1,6 +1,6 @@
 {
     "name": "asciiart-logo",
-    "version": "0.2.4",
+    "version": "0.2.6",
     "description": "Splashscreen in text console with logo from ASCII characters",
     "main": "./logo.js",
     "scripts": {

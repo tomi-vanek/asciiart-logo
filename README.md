@@ -2,9 +2,7 @@
 
 __asciiart-logo__ _renders a splash screen in text console with logo from ASCII characters._
 
-Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc).
-
-__asciiart-logo__ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application. Example console output from this project's [package.json](package.json):
+Splash screen is a rectangular panel and logo is the application name rendered by [ASCII-art fonts](gallery.txt) extended by optional additional information (author, application version, short desctiption, etc). Example console output from this project's [package.json](package.json):
 
 ``` Console
 ,-------------------------------------------------------------------.
@@ -22,6 +20,8 @@ __asciiart-logo__ can be used by starting of command line tools, web servers or 
 |                                                                   |
 `-------------------------------------------------------------------'
 ```
+
+__asciiart-logo__ can be used by starting of command line tools, web servers or REST API microservices as a visual feedback to the user or administrator about successful start of the application.
 
 ## Quick Start
 
