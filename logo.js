@@ -67,8 +67,8 @@ module.exports = options => {
 
   const safeRepeat = spaces => spaces && spaces > 0 ? ' '.repeat(spaces) : '';
   const _render = (style, line, leftSpaces, rightSpaces) => {
-    const leftPadding = leftSpaces ? ' '.repeat(leftSpaces)  : '';
-    const rightPadding = rightSpaces ? ' '.repeat(rightSpaces)  : '';
+    const leftPadding = safeRepeat(leftSpaces);
+    const rightPadding = safeRepeat(rightSpaces);
     const border = colorizer(borderColor)('|');
     const contentColor = colorizer(style);
     return `${horizMarginText}${border}${leftPadding}${contentColor(line)}${rightPadding}${border}`;
